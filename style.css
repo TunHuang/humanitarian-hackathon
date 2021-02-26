@@ -165,3 +165,9 @@ body {
     border: none;
     background-color: transparent;
 }
+.back-light{
+background-color: azure;
+}
+.back-dark{
+background-color: rgba(169, 169, 169, 0.103);
+}
