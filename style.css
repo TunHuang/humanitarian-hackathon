@@ -161,3 +161,7 @@ body {
 .eat p {
     font-size: 2em;
 }
+.card{
+    border: none;
+    background-color: transparent;
+}
