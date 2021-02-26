@@ -142,11 +142,22 @@ h2{
   .slick-arrow.slick-hidden {
       display: none;
   }
-  .contact-left {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .contact-right {
-      padding: 20px 0px 20px 0px;
-  }
+
+.contact-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-right {
+    padding: 20px 0px 20px 0px;
+}
+
+#more {
+    display: none;
+}
+
+.blog-left img {
+    width: 100%;
+    height: auto;
+}
