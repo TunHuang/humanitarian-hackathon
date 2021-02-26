@@ -11,21 +11,10 @@ div.customCaption {
     }
 }
 
-.jumbotron {
-    background-image: url('./images/index.svg');
-    background-size: cover;
-    text-align: right;
-    color: white;
-}
-
-div.jumb {
-    margin-top: 20px;
-}
-
-h2{
+/* h2{
     text-align:center;
     padding: 20px;
-  }
+  } */
   /* Slider */
   
   .slick-slide {
@@ -155,4 +144,12 @@ h2{
 
 #more {
     display: none;
+}
+
+
+.jumbotron {
+    background-image: url('./images/Hero_pic.jpg');
+    background-size: cover;
+    text-align: right;
+    color: white;
 }
