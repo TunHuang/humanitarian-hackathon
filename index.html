@@ -15,6 +15,9 @@
 </head>
 
 <body>
+    <div class="logo">
+        <img src="/images/Logos-Ideas(1).png" alt="">
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">menu-bar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -32,9 +35,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
@@ -78,8 +78,10 @@
     <!-- Jumbotron for single image -->
     <div class="container ">
         <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+            <div class="hero_back">
+            <h1 class="display-4">We are what we eat!</h1>
+            <h1 class="display-4">Lets plant and eat right!</h1>
+            <p class="lead text-right" >This is a simple hero unit, a simple jumbotron-style component for calling extra attention
                 to featured content or information.</p>
             <!-- <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
@@ -87,18 +89,19 @@
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
             </p>
         </div>
+        </div>
     </div>
 
     <!-- Social proof -->
     <div class="container ">
-        <h2>Social Proof Section</h2>
-        <section class="customer-logos slider">
-            <div class="slide"><img src="./images/fankfurter_allgemeine_logo_download-1007x169.png"></div>
+        
+        <section class="customer-logos slider" style="justify-content: center; display: flex;">
+            <div class="slide"><img src="./images/fankfurter_allgemeine_logo_download-1007x169.png" class="slideImage"></div>
             <!-- <div class="slide"><img src="./images/eltern_magazin_logo.png"></div>
             <div class="slide"><img src="./images/Focus-Logo-e1455639485504.jpg"></div> -->
-            <div class="slide"><img src="./images/1024px-Die_Zeit-Logo-Bremen.svg.png"></div>
-            <div class="slide"><img src="./images/1200px-RP-Online-Logo.svg.png"></div>
-            <div class="slide"><img src="./images/National_Geographic_Logo.svg.png" alt=""></div>
+            <div class="slide"><img src="./images/1024px-Die_Zeit-Logo-Bremen.svg.png" class="slideImage"></div>
+            <div class="slide"><img src="./images/1200px-RP-Online-Logo.svg.png" class="slideImage"></div>
+            <div class="slide"><img src="./images/National_Geographic_Logo.svg.png" alt="" class="slideImage"></div>
         </section>
     </div>
 
@@ -125,11 +128,15 @@
     <!-- Explaining the Cause -->
     <div class="container back-dark">
         <div class="row">
-            <div class="col-md-5 eat">
+            <div class="col-md-5 ">
                 <!-- <h3>About Us</h3> -->
-                <p class="lead">
+                <!-- <p class="lead">
                     We are what we eat!<br>
                     Lets plant and eat right!
+                </p> -->
+                <p class="eat-p">Scholar Farmers is a non profit organisation that was formed in 2018 after we came to a realization that there was an immense lack of farming knowledge in our children.We’re  currently operating in 5 countries supporting 405 schools in farming projects,this initiative started in south African,continued in Namibia and ultimately spreaded in countries like Greece,Italy and Taiwan via the help of our partners UN Food and Greek Agricultural government.
+                </p>
+                <p class="eat-p">Agriculture is one of the oldest occupations of mankind. With industrialization taking over our lives including that of our kids, the focus has shifted from what is good to what is the trend. We are changing the narrative, taking it back to where it all began...NATURE. We offer educational agricultural material in primary schools. Our goal is to get schools around the world to start teaching farming as a  compulsory subject. We invite the world to join and rally behind this initiative in promoting environmental health.As per the research done by food and agriculture organisation, the youth is acutely impacted by climate change, we can change this,it is in our hands.
                 </p>
             </div>
             <div class="col-md-7">
@@ -298,7 +305,7 @@
                         <div class="card text-center">
                             <div class="card-body">
                                 <img class="rounded-circle img-fluid"
-                                    src="https://www.icon-h2o.com/wp-content/uploads/2019/07/2017_icon_vimeo_thumbnail.jpg"
+                                    src="/images/1.png"
                                     alt="picture">
                                 <h4>Children are our future</h4>
                                 <p class="card-text">
@@ -311,7 +318,7 @@
                         <div class="card text-center">
                             <div class="card-body">
                                 <img class="rounded-circle img-fluid"
-                                    src="https://www.icon-h2o.com/wp-content/uploads/2019/07/2017_icon_vimeo_thumbnail.jpg"
+                                    src="/images/2.png"
                                     alt="picture">
                                 <h4>Respect and Nurture</h4>
                                 <p class="card-text">
@@ -324,7 +331,7 @@
                         <div class="card text-center">
                             <div class="card-body">
                                 <img class="rounded-circle img-fluid"
-                                    src="https://www.icon-h2o.com/wp-content/uploads/2019/07/2017_icon_vimeo_thumbnail.jpg"
+                                    src="/images/3.png"
                                     alt="picture">
                                 <h4>Farming is Cool</h4>
                                 <p class="card-text">
@@ -340,7 +347,7 @@
 
     <!-- image -->
     <div class="container back-dark">
-        <img src="https://www.icon-h2o.com/wp-content/uploads/2019/07/2017_icon_vimeo_thumbnail.jpg" alt="picture"
+        <img src="/images/benjamin-davies-Zm2n2O7Fph4-unsplash.jpg" alt="picture"
             class="img-fluid">
     </div>
 
@@ -378,23 +385,11 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md blog-left">
-                        <img src="https://www.icon-h2o.com/wp-content/uploads/2019/07/2017_icon_vimeo_thumbnail.jpg"
+                        <img src="/images/Hero_pic.jpeg"
                             alt="picture" class="img-fluid">
                     </div>
                     <div class="col-md">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et
-                            dictum
-                            interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque
-                                enim
-                                ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae
-                                massa.
-                                Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper
-                                ipsum
-                                dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec
-                                vitae dui
-                                eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed
-                                dapibus
-                                pulvinar nibh tempor porta.</span></p>
+                        <p>Living on a farm teaches children skills that can never be taught in a classroom. I am grateful everyday for this simple, yet busy life we live.</span></p>
 
                         <button onclick="readMore()" id="myBtn">Read more</button>
                     </div>
