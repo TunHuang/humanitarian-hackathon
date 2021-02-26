@@ -11,6 +11,17 @@ div.customCaption {
     }
 }
 
+.jumbotron {
+    background-image: url('./images/index.svg');
+    background-size: cover;
+    text-align: right;
+    color: white;
+}
+
+div.jumb {
+    margin-top: 20px;
+}
+
 h2{
     text-align:center;
     padding: 20px;
@@ -130,4 +141,12 @@ h2{
   }
   .slick-arrow.slick-hidden {
       display: none;
+  }
+  .contact-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .contact-right {
+      padding: 20px 0px 20px 0px;
   }
