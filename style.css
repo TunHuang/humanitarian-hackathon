@@ -136,7 +136,8 @@ body {
       display: none;
   }
 
-.contact-left {
+.contact-left,
+.eat {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,4 +156,8 @@ body {
     background-size: cover;
     text-align: right;
     color: white;
+}
+
+.eat p {
+    font-size: 2em;
 }
